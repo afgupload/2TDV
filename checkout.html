@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Commercial Software Checkout &amp; Instant License Provisioning — 2TDV.com</title>
+  <meta name="description" content="Complete your 2TDV commercial software purchase. Instant source code download, PDF invoice, and cryptographic license certificate.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="topbar-promo">
+        <span class="topbar-badge">256-Bit Encrypted Checkout</span>
+        <span>Instant source code ZIP download + cryptographic license key issued immediately upon completion.</span>
+      </div>
+      <div class="topbar-links">
+        <span class="status-dot">Stripe Managed Payments &amp; Bank Wire Ready</span>
+        <a href="verify-license.html">Verify License</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="nav-bar">
+      <a href="index.html" class="brand-logo">
+        <span class="brand-mark">
+          <svg width="22" height="22" viewBox="0 0 36 36" fill="none">
+            <path d="M8 13C8 10.79 9.79 9 12 9H16C18.21 9 20 10.79 20 13C20 14.65 19 16.07 17.56 16.68L11.44 19.32C9.96 19.95 9 21.4 9 23V26H20" stroke="#d4ff3a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M23 9L29 17.5L23 26" stroke="#8b7bff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span>2TDV</span>
+        <span class="brand-sub">CHECKOUT</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <a href="marketplace.html" class="nav-link">← Back to Marketplace</a>
+        <a href="product-picso.html" class="nav-link">Picso Product Details</a>
+        <a href="pricing.html" class="nav-link">Compare License Tiers</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="icon-btn" data-theme-toggle aria-label="Theme"><span class="theme-label">Dark</span></button>
+        <a href="dashboard.html" class="btn btn-ghost btn-sm">Buyer Portal</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" style="padding-top:44px">
+      <div class="wrap">
+        <form id="checkout-form" class="grid-2" style="align-items:start;gap:34px">
+
+          <!-- Left Column: Product, Licensing, Licensee & Payment Details -->
+          <div style="display:grid;gap:24px">
+            <div class="card" style="display:grid;gap:18px">
+              <div style="display:flex;justify-content:space-between;align-items:center">
+                <span class="badge badge-lime">STEP 01 · SOFTWARE &amp; LICENSE CONFIGURATION</span>
+                <span class="mono text-muted" style="font-size:12px">Instant Delivery</span>
+              </div>
+
+              <div class="grid-2" style="gap:14px">
+                <div>
+                  <label for="checkout-product-select" class="mono text-muted" style="font-size:11px;display:block;margin-bottom:6px">COMMERCIAL SOFTWARE PRODUCT</label>
+                  <select id="checkout-product-select" class="select">
+                    <option value="picso" selected>Picso — Stock Media Marketplace Script (v1.0.0)</option>
+                    <option value="neuraldesk">NeuralDesk AI — Autonomous RAG Helpdesk (v2.4.0)</option>
+                    <option value="vendorpulse">VendorPulse — Laravel 11 License Server (v3.1.2)</option>
+                    <option value="promptforge">PromptForge — Multi-Model AI Workspace (v2.8.0)</option>
+                    <option value="docuvault">DocuVault AI — Legal &amp; Financial OCR (v1.9.4)</option>
+                    <option value="voiceflow">VoiceFlow Studio — AI Voice Agent Kit (v1.5.0)</option>
+                    <option value="metricra">Metricra — Privacy-First Analytics (v2.1.0)</option>
+                    <option value="kinetix">Kinetix UI Pro — Design System &amp; Kit (v4.0.0)</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="checkout-tier-select" class="mono text-muted" style="font-size:11px;display:block;margin-bottom:6px">COMMERCIAL LICENSE TIER</label>
+                  <select id="checkout-tier-select" class="select">
+                    <option value="regular" selected>Regular License (Single Production Website)</option>
+                    <option value="extended">Extended Agency License (Multi-Site &amp; Client Projects)</option>
+                  </select>
+                </div>
+              </div>
+
+              <label style="display:flex;justify-content:space-between;align-items:center;padding:14px;border-radius:var(--r-sm);background:var(--bg-0);border:1px solid var(--border);cursor:pointer">
+                <span>
+                  <input type="checkbox" id="checkout-addon-install">
+                  <strong style="margin-left:8px">Add Turnkey Server Installation, ffmpeg &amp; Cloudflare R2 Setup</strong>
+                  <span style="display:block;font-size:12px;color:var(--text-3);margin-left:22px">Our engineers configure your server, SSL, S3 bucket, and import demo content within 24h.</span>
+                </span>
+                <span class="mono text-lime">+$149</span>
+              </label>
+            </div>
+
+            <!-- Step 2: Licensee & Invoice Information -->
+            <div class="card" style="display:grid;gap:16px">
+              <span class="badge badge-cyan">STEP 02 · LICENSEE &amp; NUMBERED PDF INVOICE DETAILS</span>
+              <div class="grid-2" style="gap:14px">
+                <div>
+                  <label class="mono text-muted" style="font-size:11px;display:block;margin-bottom:6px">FULL NAME OR LEGAL ENTITY *</label>
+                  <input type="text" class="input" required value="Northstar Digital Media Ltd.">
+                </div>
+                <div>
+                  <label class="mono text-muted" style="font-size:11px;display:block;margin-bottom:6px">DELIVERY &amp; PORTAL EMAIL *</label>
+                  <input type="email" class="input" required value="licensing@northstarmedia.io">
+                </div>
+              </div>
+              <div class="grid-2" style="gap:14px">
+                <div>
+                  <label class="mono text-muted" style="font-size:11px;display:block;margin-bottom:6px">INITIAL PRODUCTION DOMAIN (OPTIONAL)</label>
+                  <input type="text" class="input mono" value="stock.northstarmedia.io" placeholder="your-marketplace.com">
+                </div>
+                <div>
+                  <label class="mono text-muted" style="font-size:11px;display:block;margin-bottom:6px">EU VAT / TAX ID (OPTIONAL)</label>
+                  <input type="text" class="input mono" placeholder="DE999999999">
+                </div>
+              </div>
+            </div>
+
+            <!-- Step 3: Payment Method Simulation -->
+            <div class="card" style="display:grid;gap:18px">
+              <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+                <span class="badge badge-violet">STEP 03 · PAYMENT METHOD</span>
+                <span class="mono text-muted" style="font-size:11.5px">Stripe · Apple Pay · Wire Transfer</span>
+              </div>
+
+              <div class="filter-pills" role="tablist">
+                <button type="button" class="filter-pill active" data-tab-group="pay-method" data-tab-target="pay-card" aria-selected="true">💳 Credit / Debit Card (Stripe)</button>
+                <button type="button" class="filter-pill" data-tab-group="pay-method" data-tab-target="pay-bank" aria-selected="false">🏦 Bank Wire Transfer</button>
+                <button type="button" class="filter-pill" data-tab-group="pay-method" data-tab-target="pay-crypto" aria-selected="false">⚡ USDC / Crypto</button>
+              </div>
+
+              <div id="pay-card" data-tab-panel-group="pay-method" style="display:grid;gap:14px">
+                <div>
+                  <label class="mono text-muted" style="font-size:11px;display:block;margin-bottom:6px">CARD NUMBER (DEMO SIMULATION)</label>
+                  <input type="text" class="input mono" value="4242 •••• •••• 4242">
+                </div>
+                <div class="grid-2" style="gap:14px">
+                  <div>
+                    <label class="mono text-muted" style="font-size:11px;display:block;margin-bottom:6px">EXPIRY DATE</label>
+                    <input type="text" class="input mono" value="10 / 29">
+                  </div>
+                  <div>
+                    <label class="mono text-muted" style="font-size:11px;display:block;margin-bottom:6px">CVC</label>
+                    <input type="text" class="input mono" value="884">
+                  </div>
+                </div>
+              </div>
+
+              <div id="pay-bank" data-tab-panel-group="pay-method" hidden>
+                <div style="padding:16px;border-radius:var(--r-sm);background:var(--bg-0);border:1px solid var(--border);font-size:13.5px;color:var(--text-2)">
+                  Generates an instant numbered Proforma PDF Invoice with our IBAN / SWIFT / ACH routing details. License activates automatically upon wire confirmation.
+                </div>
+              </div>
+
+              <div id="pay-crypto" data-tab-panel-group="pay-method" hidden>
+                <div style="padding:16px;border-radius:var(--r-sm);background:var(--bg-0);border:1px solid var(--border);font-size:13.5px;color:var(--text-2)">
+                  Pay with USDC or USDT on Base, Ethereum, or Solana with 0% network markup and instant on-chain receipt verification.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Order Summary & Submit -->
+          <aside class="card highlight-lime" style="position:sticky;top:92px;display:grid;gap:20px">
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <h3>Order &amp; License Summary</h3>
+              <span class="badge badge-lime">Tax Invoice Included</span>
+            </div>
+
+            <div style="padding:16px;border-radius:var(--r-sm);background:var(--bg-0);border:1px solid var(--border);display:grid;gap:12px;font-size:14px">
+              <div style="display:flex;justify-content:space-between;gap:12px">
+                <span id="co-summary-name" style="font-weight:600">Picso — Stock Media Marketplace Script (Regular License)</span>
+                <strong class="mono" id="co-summary-base">$72.00</strong>
+              </div>
+              <div style="display:flex;justify-content:space-between;color:var(--text-2)">
+                <span>Turnkey Server Installation Add-On</span>
+                <span class="mono" id="co-summary-addon">$0.00</span>
+              </div>
+              <div style="display:flex;justify-content:space-between;color:var(--emerald)">
+                <span>Partner Promo Discount</span>
+                <span class="mono" id="co-summary-discount">$0.00</span>
+              </div>
+              <div style="padding-top:12px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:baseline">
+                <span style="font-weight:700">Total Due Today</span>
+                <strong id="co-summary-total" style="font-size:28px;color:var(--lime)">$72.00 USD</strong>
+              </div>
+            </div>
+
+            <!-- Promo Code Box -->
+            <div>
+              <label for="checkout-promo-input" class="mono text-muted" style="font-size:11px;display:block;margin-bottom:6px">PROMO CODE (TRY: 2TDVLAUNCH)</label>
+              <div style="display:flex;gap:8px">
+                <input type="text" id="checkout-promo-input" class="input mono" placeholder="2TDVLAUNCH" value="2TDVLAUNCH">
+                <button type="button" id="checkout-promo-btn" class="btn btn-ghost btn-sm">Apply 15%</button>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-lime btn-lg btn-block">
+              Complete Purchase &amp; Issue License →
+            </button>
+
+            <div style="display:grid;gap:8px;font-size:12.5px;color:var(--text-3)">
+              <div>✓ Instant ZIP access to Theme + Core Plugin + Documentation</div>
+              <div>✓ Permanent PDF License Certificate verifiable at <a href="verify-license.html" class="text-lime">2tdv.com/verify</a></div>
+              <div>✓ Full management inside your <a href="dashboard.html" class="text-lime">Client &amp; Buyer Dashboard</a></div>
+            </div>
+          </aside>
+
+        </form>
+      </div>
+    </section>
+
+    <!-- Instant Provisioned Order Confirmation Modal -->
+    <div class="modal-backdrop" id="checkout-confirmation-modal">
+      <div class="cmd-modal" style="padding:32px;display:grid;gap:20px">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <span class="badge badge-lime">✓ COMMERCIAL LICENSE PROVISIONED</span>
+          <span class="mono text-muted" style="font-size:12px">Order #2TDV-2026-9941</span>
+        </div>
+        <h3>Your software package &amp; cryptographic certificate are ready!</h3>
+        <div class="terminal-box" style="font-size:12.5px">
+          LICENSE KEY: <span class="text-lime">PX-7KQ2-9941-2TDV</span><br>
+          INVOICE NO:  INV-2026-1048 (Paid · USD)<br>
+          PACKAGE:     picso-v1.0.0-full-release.zip (SHA-256 Verified)
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+          <a href="dashboard.html" class="btn btn-lime">Download in Buyer Portal →</a>
+          <a href="verify-license.html" class="btn btn-ghost">Inspect Certificate</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-bottom">
+        <div>© 2026 2TDV Technologies · Commercial Licensing Checkout.</div>
+        <div style="display:flex;gap:18px">
+          <a href="marketplace.html">Marketplace</a>
+          <a href="verify-license.html">Verify License</a>
+          <a href="dashboard.html">Buyer Portal</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

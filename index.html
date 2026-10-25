@@ -1,0 +1,928 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2TDV.com — AI-Native Software Engineering Studio &amp; Commercial Script Marketplace</title>
+  <meta name="description" content="2TDV is an innovative technology company specializing in custom web development, AI-powered applications, automation solutions, and commercial software scripts like Picso.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="topbar-promo">
+        <span class="topbar-badge">New Release</span>
+        <span><strong>Picso v1.0.0</strong> — 8-Format Stock Photo, 4K Video &amp; Music Marketplace Script for WordPress is now live.</span>
+        <a href="product-picso.html" class="mono text-lime" style="font-weight:600;text-decoration:underline">Inspect Picso →</a>
+      </div>
+      <div class="topbar-links">
+        <span class="status-dot">All AI &amp; License Nodes Operational</span>
+        <a href="verify-license.html">Verify License Key</a>
+        <a href="https://picso.site" target="_blank" rel="noopener">picso.site ↗</a>
+        <a href="dashboard.html">Client Portal</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Glass Header -->
+  <header class="site-header">
+    <div class="nav-bar">
+      <a href="index.html" class="brand-logo" aria-label="2TDV Home">
+        <span class="brand-mark">
+          <svg width="22" height="22" viewBox="0 0 36 36" fill="none">
+            <path d="M8 13C8 10.79 9.79 9 12 9H16C18.21 9 20 10.79 20 13C20 14.65 19 16.07 17.56 16.68L11.44 19.32C9.96 19.95 9 21.4 9 23V26H20" stroke="#d4ff3a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M23 9L29 17.5L23 26" stroke="#8b7bff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span>2TDV</span>
+        <span class="brand-sub">AI · LABS</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="services.html" class="nav-link">Custom Engineering</a>
+        <a href="ai-solutions.html" class="nav-link">AI &amp; Automation</a>
+        <a href="marketplace.html" class="nav-link">Marketplace <span class="nav-count">8</span></a>
+        <a href="product-picso.html" class="nav-link">Picso Script</a>
+        <a href="case-studies.html" class="nav-link">Case Studies</a>
+        <a href="pricing.html" class="nav-link">Pricing</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="icon-btn" data-open-cmd aria-label="Command Search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+          <span class="hide-sm">Search</span>
+          <span class="kbd-hint hide-sm">⌘K</span>
+        </button>
+
+        <button type="button" class="icon-btn" data-theme-toggle aria-label="Toggle color theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <span class="theme-label hide-sm">Dark</span>
+        </button>
+
+        <button type="button" class="icon-btn" data-open-cart aria-label="Open License Cart">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><path d="M3 6h18M16 10a4 4 0 01-8 0"/></svg>
+          <span class="cart-badge" data-cart-count>1</span>
+        </button>
+
+        <a href="login.html" class="btn btn-ghost btn-sm hide-sm">Sign In</a>
+        <a href="contact.html" class="btn btn-lime btn-sm hide-sm">Start a Project</a>
+
+        <button type="button" class="icon-btn mobile-toggle" data-mobile-toggle aria-label="Open Menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer" id="mobile-nav-drawer">
+    <div class="mobile-drawer-panel">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <span class="brand-logo"><span>2TDV</span> <span class="brand-sub">NAVIGATION</span></span>
+        <button type="button" class="icon-btn" data-mobile-close>✕</button>
+      </div>
+      <div class="mobile-drawer-links">
+        <a href="index.html"><span>Home</span><span>→</span></a>
+        <a href="services.html"><span>Custom Development Services</span><span>→</span></a>
+        <a href="ai-solutions.html"><span>AI Applications &amp; Automation</span><span>→</span></a>
+        <a href="marketplace.html"><span>Commercial Software Marketplace (8)</span><span>→</span></a>
+        <a href="product-picso.html"><span>Flagship Product: Picso Script</span><span>→</span></a>
+        <a href="case-studies.html"><span>Engineering Case Studies</span><span>→</span></a>
+        <a href="pricing.html"><span>Pricing &amp; Licensing</span><span>→</span></a>
+        <a href="verify-license.html"><span>Verify License Certificate</span><span>→</span></a>
+        <a href="dashboard.html"><span>Client &amp; Buyer Dashboard</span><span>→</span></a>
+        <a href="login.html"><span>Sign In / Register</span><span>→</span></a>
+      </div>
+      <a href="contact.html" class="btn btn-lime btn-block">Book Engineering Consultation</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-grid-bg"></div>
+
+      <div class="wrap">
+        <div class="hero-center">
+          <span class="eyebrow">AI Engineering Studio &amp; Commercial Software Lab</span>
+          <h1>
+            We engineer <span class="serif text-lime">intelligent</span> web platforms &amp; ship commercial software that scales.
+          </h1>
+          <p class="lead">
+            2TDV combines <strong>bespoke AI &amp; full-stack software development</strong> for ambitious enterprises with our own <strong>ready-to-license commercial scripts and SaaS engines</strong>—like <a href="product-picso.html" class="text-lime" style="text-decoration:underline">Picso</a>. Production code, verifiable licensing, and zero agency fluff.
+          </p>
+
+          <div class="hero-actions">
+            <a href="contact.html" class="btn btn-lime btn-lg">
+              <span>Commission Custom Engineering</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="marketplace.html" class="btn btn-violet btn-lg">
+              <span>Explore Commercial Software</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+            </a>
+            <a href="product-picso.html" class="btn btn-ghost btn-lg">
+              <span>View Picso ($72)</span>
+            </a>
+          </div>
+
+          <div class="hero-trust-strip">
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+              100% IP &amp; Source Code Ownership
+            </span>
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+              Verifiable Cryptographic Software Licenses
+            </span>
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+              AI Agents, RAG Pipelines &amp; Multi-Tenant SaaS
+            </span>
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+              3–6 Weeks Typical Build-to-Launch
+            </span>
+          </div>
+        </div>
+
+        <!-- Interactive Dual-Model Workspace Preview -->
+        <div class="hero-stage">
+          <div style="display:flex;justify-content:center">
+            <div class="stage-switcher" role="tablist" aria-label="2TDV Dual Business Model Interactive Preview">
+              <button type="button" class="stage-tab active" data-tab-group="hero-stage" data-tab-target="stage-panel-marketplace" aria-selected="true">
+                <i style="background:#10b981"></i>
+                01 · Commercial Software Lab (Picso v1.0.0)
+              </button>
+              <button type="button" class="stage-tab" data-tab-group="hero-stage" data-tab-target="stage-panel-ai" aria-selected="false">
+                <i style="background:#8b7bff"></i>
+                02 · Custom AI &amp; Agentic Engineering
+              </button>
+              <button type="button" class="stage-tab" data-tab-group="hero-stage" data-tab-target="stage-panel-saas" aria-selected="false">
+                <i style="background:#38bdf8"></i>
+                03 · Client Delivery &amp; Licensing Portal
+              </button>
+            </div>
+          </div>
+
+          <!-- Stage Panel 1: Commercial Software Lab (Picso) -->
+          <div id="stage-panel-marketplace" data-tab-panel-group="hero-stage" class="browser-window">
+            <div class="browser-chrome">
+              <div class="browser-dots"><i></i><i></i><i></i></div>
+              <div class="browser-url">
+                <span style="color:var(--emerald)">🔒</span>
+                <span>https://picso.site — Flagship 2TDV Commercial Product · v1.0.0</span>
+              </div>
+              <div style="display:flex;gap:8px">
+                <a href="https://picso.site/demo/" target="_blank" rel="noopener" class="badge badge-lime">Live Storefront ↗</a>
+                <a href="product-picso.html" class="badge badge-violet">Product Specs →</a>
+              </div>
+            </div>
+            <div class="browser-body">
+              <div class="grid-3" style="align-items:stretch">
+                <div class="card highlight-lime" style="display:flex;flex-direction:column;justify-content:space-between">
+                  <div>
+                    <div style="display:flex;justify-content:space-between;align-items:center">
+                      <span class="badge badge-lime">WordPress Theme + Core Plugin</span>
+                      <span class="mono text-muted">From $72</span>
+                    </div>
+                    <h3 style="margin-top:14px;font-size:22px">Picso — Stock Photo, 4K Video &amp; Music Marketplace Script</h3>
+                    <p class="text-muted" style="margin-top:8px;font-size:14px">
+                      Turn WordPress 6.6+ &amp; PHP 8.2+ into a self-hosted multi-vendor stock media platform across 8 native asset formats with free Elementor.
+                    </p>
+                  </div>
+                  <div style="margin-top:18px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap">
+                    <span class="tag">8 Asset Formats</span>
+                    <span class="tag">170+ Elementor Widgets</span>
+                    <span class="tag">C2PA Provenance</span>
+                    <span class="tag">Stripe Connect</span>
+                  </div>
+                </div>
+
+                <div class="card" style="display:flex;flex-direction:column;justify-content:space-between">
+                  <div>
+                    <div class="mono text-cyan" style="font-size:11px;text-transform:uppercase;letter-spacing:0.08em">LIVE LICENSING &amp; WATERMARK ENGINE</div>
+                    <h4 style="margin-top:8px">Cryptographic License &amp; Preview Protection</h4>
+                    <div style="margin-top:14px;display:grid;gap:10px">
+                      <div style="padding:11px 13px;border-radius:var(--r-xs);background:var(--bg-0);border:1px solid var(--border);display:flex;justify-content:space-between;align-items:center">
+                        <div>
+                          <div class="mono" style="font-size:12px;color:var(--lime)">Licence PX-7Kq2-9941</div>
+                          <div style="font-size:12px;color:var(--text-3)">PDF Certificate · Verifiable Online</div>
+                        </div>
+                        <span class="badge badge-emerald">VALID</span>
+                      </div>
+                      <div style="padding:11px 13px;border-radius:var(--r-xs);background:var(--bg-0);border:1px solid var(--border);display:flex;justify-content:space-between;align-items:center">
+                        <div>
+                          <div class="mono" style="font-size:12px">C2PA Content Credentials</div>
+                          <div style="font-size:12px;color:var(--text-3)">Human-Made · AI-Assisted · AI-Generated</div>
+                        </div>
+                        <span class="badge badge-cyan">PRESERVED</span>
+                      </div>
+                      <div style="padding:11px 13px;border-radius:var(--r-xs);background:var(--bg-0);border:1px solid var(--border);display:flex;justify-content:space-between;align-items:center">
+                        <div>
+                          <div class="mono" style="font-size:12px">Cloudflare R2 / S3 Offload</div>
+                          <div style="font-size:12px;color:var(--text-3)">Direct-to-bucket resumable uploads</div>
+                        </div>
+                        <span class="badge badge-violet">READY</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="margin-top:14px;display:flex;justify-content:space-between;align-items:center">
+                    <a href="verify-license.html" class="mono text-lime" style="font-size:12.5px">Test Public License Verifier →</a>
+                    <button type="button" class="btn btn-lime btn-sm" onclick="window.addToCart('picso', 'regular')">Buy Picso ($72)</button>
+                  </div>
+                </div>
+
+                <div class="card" style="display:flex;flex-direction:column;justify-content:space-between">
+                  <div>
+                    <div class="mono text-violet" style="font-size:11px;text-transform:uppercase;letter-spacing:0.08em">CREATOR PAYOUT WEIGHTS &amp; REVIEW QUEUE</div>
+                    <h4 style="margin-top:8px">Built for Real Marketplace Operators</h4>
+                    <div style="margin-top:12px;display:grid;gap:8px;font-size:13px">
+                      <div style="display:flex;justify-content:space-between;padding:7px 10px;background:var(--bg-0);border-radius:6px">
+                        <span>4K Video Clip / Font Family</span>
+                        <strong class="mono text-lime">12× Weight</strong>
+                      </div>
+                      <div style="display:flex;justify-content:space-between;padding:7px 10px;background:var(--bg-0);border-radius:6px">
+                        <span>Music Track (PRO + Cue Sheet)</span>
+                        <strong class="mono text-cyan">8× Weight</strong>
+                      </div>
+                      <div style="display:flex;justify-content:space-between;padding:7px 10px;background:var(--bg-0);border-radius:6px">
+                        <span>Icon Set / Sample Pack (50 loops)</span>
+                        <strong class="mono text-violet">6× Weight</strong>
+                      </div>
+                      <div style="display:flex;justify-content:space-between;padding:7px 10px;background:var(--bg-0);border-radius:6px">
+                        <span>Photo / Vector / Illustration</span>
+                        <strong class="mono">3× Weight</strong>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="margin-top:14px;padding-top:12px;border-top:1px solid var(--border);display:flex;justify-content:space-between;font-size:12.5px;color:var(--text-2)">
+                    <span>50% Net Creator Share</span>
+                    <a href="product-picso.html" class="text-lime" style="font-weight:600">Full Picso Breakdown →</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stage Panel 2: Custom AI & Agentic Engineering -->
+          <div id="stage-panel-ai" data-tab-panel-group="hero-stage" class="browser-window" hidden>
+            <div class="browser-chrome">
+              <div class="browser-dots"><i></i><i></i><i></i></div>
+              <div class="browser-url">
+                <span style="color:var(--violet)">⚡</span>
+                <span>2tdv://ai-orchestrator/production-pipeline — Multi-Agent RAG &amp; Workflow Engine</span>
+              </div>
+              <a href="ai-solutions.html" class="badge badge-violet">Open AI Playground →</a>
+            </div>
+            <div class="browser-body">
+              <div class="grid-3">
+                <div class="card highlight-violet">
+                  <span class="badge badge-violet">01 · Ingestion &amp; Vector Memory</span>
+                  <h3 style="margin-top:12px">Hybrid RAG Architecture</h3>
+                  <p class="text-muted" style="font-size:14px;margin-top:8px">
+                    Sub-200ms semantic + BM25 retrieval across millions of PDFs, SQL tables, Notion docs, and ERP records with role-based access control.
+                  </p>
+                  <div class="terminal-box" style="margin-top:14px;padding:12px;font-size:11.5px">
+                    pgvector_index: HNSW (m=16, ef=64)<br>
+                    reranker: cohere-rerank-v3.5<br>
+                    p95_latency: <span class="text-lime">142ms</span>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <span class="badge badge-cyan">02 · Autonomous Agent Execution</span>
+                  <h3 style="margin-top:12px">Deterministic Tool Calling</h3>
+                  <p class="text-muted" style="font-size:14px;margin-top:8px">
+                    Multi-step AI agents that verify invoices, update CRMs, issue refunds, generate code, and trigger human-in-the-loop approvals safely.
+                  </p>
+                  <div class="terminal-box" style="margin-top:14px;padding:12px;font-size:11.5px">
+                    guardrails: schema_strict_v4<br>
+                    models: Claude 4 / GPT-5 / Gemini<br>
+                    hallucination_rate: <span class="text-lime">&lt;0.08%</span>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <span class="badge badge-lime">03 · Full-Stack SaaS Delivery</span>
+                  <h3 style="margin-top:12px">Production Web Platforms</h3>
+                  <p class="text-muted" style="font-size:14px;margin-top:8px">
+                    Delivered as high-speed Next.js, Laravel, or Python platforms with Stripe billing, SSO, audit logs, and 100% client IP ownership.
+                  </p>
+                  <div style="margin-top:16px">
+                    <a href="services.html" class="btn btn-lime btn-sm btn-block">Explore Custom Engineering →</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stage Panel 3: Client Delivery & Licensing Portal -->
+          <div id="stage-panel-saas" data-tab-panel-group="hero-stage" class="browser-window" hidden>
+            <div class="browser-chrome">
+              <div class="browser-dots"><i></i><i></i><i></i></div>
+              <div class="browser-url">
+                <span style="color:var(--cyan)">●</span>
+                <span>https://portal.2tdv.com/dashboard — Unified Software Buyer &amp; Agency Client Command Center</span>
+              </div>
+              <a href="dashboard.html" class="badge badge-lime">Launch Interactive Portal →</a>
+            </div>
+            <div class="browser-body">
+              <div class="grid-4">
+                <div class="stat-card">
+                  <div class="mono text-muted" style="font-size:11px">ACTIVE LICENSES</div>
+                  <div class="stat-value text-lime" style="margin-top:6px">4</div>
+                  <div class="stat-label">Picso Extended, NeuralDesk, VendorPulse</div>
+                </div>
+                <div class="stat-card">
+                  <div class="mono text-muted" style="font-size:11px">CUSTOM SPRINT VELOCITY</div>
+                  <div class="stat-value text-cyan" style="margin-top:6px">94%</div>
+                  <div class="stat-label">Sprint 4 of 5 · Ahead of Schedule</div>
+                </div>
+                <div class="stat-card">
+                  <div class="mono text-muted" style="font-size:11px">AI PIPELINE UPTIME</div>
+                  <div class="stat-value text-emerald" style="margin-top:6px">99.98%</div>
+                  <div class="stat-label">1.4M tokens processed today</div>
+                </div>
+                <div class="stat-card" style="display:flex;flex-direction:column;justify-content:space-between">
+                  <div class="mono text-muted" style="font-size:11px">CLIENT PORTAL DEMO</div>
+                  <p style="font-size:13px;color:var(--text-2)">Test downloads, domain bindings, PDF invoices, and sprint tracking.</p>
+                  <a href="dashboard.html" class="btn btn-lime btn-sm">Open Dashboard →</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- METRICS & PROOF STRIP -->
+    <section class="section-sm section-alt">
+      <div class="wrap">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-value">140<span class="serif text-lime">+</span></div>
+            <div class="stat-label">Custom AI &amp; Web Platforms Engineered for Global Clients</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">8,400<span class="serif text-violet">+</span></div>
+            <div class="stat-label">Active Commercial Software &amp; Script Installations Worldwide</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">3–6<span class="serif text-cyan">wks</span></div>
+            <div class="stat-label">Average Precision Sprint from Architecture to Production Launch</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">100<span class="serif text-emerald">%</span></div>
+            <div class="stat-label">White-Label Source Code &amp; Verifiable Cryptographic Licensing</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TWO PRIMARY BUSINESS MODELS BENTO -->
+    <section class="section" id="business-models">
+      <div class="wrap">
+        <div class="section-head center">
+          <span class="eyebrow">Two Synergistic Engines · One Technology Partner</span>
+          <h2>More than an agency. <span class="serif text-lime">More than a marketplace.</span></h2>
+          <p class="lead">
+            Most agencies have never shipped or supported their own commercial software products. Most script vendors cannot engineer enterprise-grade custom architectures. <strong>2TDV masters both.</strong>
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <!-- Model 1: Custom Development Services -->
+          <article class="card highlight-violet" style="padding:36px;display:flex;flex-direction:column;justify-content:space-between;gap:24px">
+            <div>
+              <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+                <span class="badge badge-violet">PILLAR 01 · BESPOKE ENGINEERING</span>
+                <span class="mono text-muted" style="font-size:12px">Fixed-Scope Sprints &amp; Dedicated Pods</span>
+              </div>
+              <h3 style="font-size:30px;margin-top:16px">Custom Development, AI Applications &amp; Automation</h3>
+              <p class="text-muted" style="margin-top:10px;font-size:15.5px">
+                We architect, design, and build bespoke web applications, multi-tenant SaaS platforms, executive dashboards, LLM/RAG integrations, and autonomous business workflows tailored to your exact operational blueprint.
+              </p>
+
+              <ul style="display:grid;gap:12px;margin-top:24px;font-size:14.5px">
+                <li style="display:flex;gap:10px;align-items:flex-start">
+                  <span class="badge badge-violet" style="padding:2px 7px">01</span>
+                  <span><strong>Custom Web Apps &amp; SaaS Platforms:</strong> Next.js, React, Laravel, Python, and cloud-native architectures built for high concurrency.</span>
+                </li>
+                <li style="display:flex;gap:10px;align-items:flex-start">
+                  <span class="badge badge-violet" style="padding:2px 7px">02</span>
+                  <span><strong>AI Integrations &amp; Custom Agents:</strong> Production RAG pipelines, voice agents, document OCR, and multi-model orchestration.</span>
+                </li>
+                <li style="display:flex;gap:10px;align-items:flex-start">
+                  <span class="badge badge-violet" style="padding:2px 7px">03</span>
+                  <span><strong>Business Process Automation:</strong> Eliminate manual back-office bottlenecks across ERP, CRM, billing, and compliance.</span>
+                </li>
+                <li style="display:flex;gap:10px;align-items:flex-start">
+                  <span class="badge badge-violet" style="padding:2px 7px">04</span>
+                  <span><strong>Full IP Ownership &amp; Zero Lock-In:</strong> You own 100% of the repository, infrastructure, and custom models from day one.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div style="padding-top:22px;border-top:1px solid var(--border);display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center">
+              <div style="display:flex;gap:10px;flex-wrap:wrap">
+                <a href="services.html" class="btn btn-violet">Explore Custom Services →</a>
+                <a href="ai-solutions.html" class="btn btn-ghost">Interactive AI Lab</a>
+              </div>
+              <span class="mono text-muted" style="font-size:12px">Reply SLA: &lt; 4 hrs</span>
+            </div>
+          </article>
+
+          <!-- Model 2: Commercial Software Products -->
+          <article class="card highlight-lime" style="padding:36px;display:flex;flex-direction:column;justify-content:space-between;gap:24px">
+            <div>
+              <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+                <span class="badge badge-lime">PILLAR 02 · PROPRIETARY SOFTWARE</span>
+                <span class="mono text-muted" style="font-size:12px">One-Time Commercial Licensing</span>
+              </div>
+              <h3 style="font-size:30px;margin-top:16px">Ready-Made Commercial Scripts, AI Tools &amp; SaaS Engines</h3>
+              <p class="text-muted" style="margin-top:10px;font-size:15.5px">
+                Why spend 9 months building from scratch when you can deploy a battle-tested 2TDV commercial software product on your own server today? Purchase once, rebrand completely, and launch under your own domain.
+              </p>
+
+              <ul style="display:grid;gap:12px;margin-top:24px;font-size:14.5px">
+                <li style="display:flex;gap:10px;align-items:flex-start">
+                  <span class="badge badge-lime" style="padding:2px 7px">01</span>
+                  <span><strong>Flagship Platforms like Picso (<a href="https://picso.site" target="_blank" rel="noopener" class="text-lime">picso.site</a>):</strong> Complete 8-format stock photo, video, music &amp; template marketplace script for WordPress.</span>
+                </li>
+                <li style="display:flex;gap:10px;align-items:flex-start">
+                  <span class="badge badge-lime" style="padding:2px 7px">02</span>
+                  <span><strong>100% White-Label &amp; Self-Hosted:</strong> Your brand, your logo, your Stripe account, and your cloud storage (Cloudflare R2 / AWS S3).</span>
+                </li>
+                <li style="display:flex;gap:10px;align-items:flex-start">
+                  <span class="badge badge-lime" style="padding:2px 7px">03</span>
+                  <span><strong>Clear Regular &amp; Extended Licensing:</strong> Single-site Regular licenses from $59–$119 or multi-site Agency Extended licenses.</span>
+                </li>
+                <li style="display:flex;gap:10px;align-items:flex-start">
+                  <span class="badge badge-lime" style="padding:2px 7px">04</span>
+                  <span><strong>Clean, Documented Source Code:</strong> Built on modern PHP 8.2+, WordPress 6.6+, Laravel 11, Next.js 15, and Python.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div style="padding-top:22px;border-top:1px solid var(--border);display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center">
+              <div style="display:flex;gap:10px;flex-wrap:wrap">
+                <a href="marketplace.html" class="btn btn-lime">Browse Software Marketplace →</a>
+                <a href="product-picso.html" class="btn btn-ghost">Inspect Picso ($72)</a>
+              </div>
+              <span class="mono text-muted" style="font-size:12px">Instant ZIP + License Key</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FLAGSHIP PRODUCT SPOTLIGHT: PICSO (https://picso.site) -->
+    <section class="section section-alt" id="flagship-picso">
+      <div class="wrap">
+        <div class="section-head-row">
+          <div>
+            <span class="eyebrow">Flagship Commercial Software Product · Reference Architecture</span>
+            <h2 style="margin-top:14px">Meet <span class="serif text-lime">Picso</span> — Our Stock Media Marketplace Engine.</h2>
+            <p class="lead" style="margin-top:10px">
+              Developed by 2TDV and live at <a href="https://picso.site" target="_blank" rel="noopener" class="text-lime" style="text-decoration:underline">https://picso.site</a>, Picso exemplifies our product engineering standard: an 8-format multi-vendor stock marketplace script for WordPress with cryptographic licensing, C2PA AI labels, and creator payouts built in.
+            </p>
+          </div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <a href="https://picso.site/demo/" target="_blank" rel="noopener" class="btn btn-ghost">
+              <span>Live Storefront Demo ↗</span>
+            </a>
+            <a href="product-picso.html" class="btn btn-lime">
+              <span>Full Picso Product Page →</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="bento-6">
+          <div class="card span-4" style="display:flex;flex-direction:column;justify-content:space-between;gap:20px">
+            <div>
+              <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+                <span class="badge badge-lime">8 ASSET FORMATS · ONE UNIFIED ENGINE</span>
+                <span class="mono text-muted" style="font-size:12px">PHP 8.2+ · WordPress 6.6+ · MySQL 8 · ffmpeg</span>
+              </div>
+              <h3 style="font-size:26px;margin-top:14px">Every Format Gets Its Own Uploader, Filters, Player &amp; Rights Logic</h3>
+              <p class="text-muted" style="margin-top:8px">
+                Unlike generic e-commerce plugins that treat every file the same, Picso engineers format-native workflows for <strong>Photos, Illustrations, Vectors, Icon Sets, Design Templates, 4K Video, Music Tracks, and Sound Effects (UCS)</strong>.
+              </p>
+            </div>
+
+            <div class="grid-4" style="gap:12px">
+              <div style="padding:14px;border-radius:var(--r-sm);background:var(--bg-0);border:1px solid var(--border)">
+                <div class="mono text-lime" style="font-size:11px">VIDEO ENGINE</div>
+                <div style="font-weight:600;margin-top:4px;font-size:14px">4K / 1080p / 720p</div>
+                <div style="font-size:12px;color:var(--text-3);margin-top:4px">16-frame hover scrub + watermarked loop</div>
+              </div>
+              <div style="padding:14px;border-radius:var(--r-sm);background:var(--bg-0);border:1px solid var(--border)">
+                <div class="mono text-violet" style="font-size:11px">MUSIC &amp; SFX</div>
+                <div style="font-weight:600;margin-top:4px;font-size:14px">5 Tiers + Cue Sheets</div>
+                <div style="font-size:12px;color:var(--text-3);margin-top:4px">PRO/ISRC, split sheets &amp; audio watermark tag</div>
+              </div>
+              <div style="padding:14px;border-radius:var(--r-sm);background:var(--bg-0);border:1px solid var(--border)">
+                <div class="mono text-cyan" style="font-size:11px">PHOTOS &amp; VECTORS</div>
+                <div style="font-weight:600;margin-top:4px;font-size:14px">AVIF / WebP / SVG</div>
+                <div style="font-size:12px;color:var(--text-3);margin-top:4px">Color palette, reverse image search &amp; EXIF</div>
+              </div>
+              <div style="padding:14px;border-radius:var(--r-sm);background:var(--bg-0);border:1px solid var(--border)">
+                <div class="mono text-amber" style="font-size:11px">TEMPLATES &amp; KITS</div>
+                <div style="font-weight:600;margin-top:4px;font-size:14px">Figma, PSD, AI, PPTX</div>
+                <div style="font-size:12px;color:var(--text-3);margin-top:4px">Automated font manifest &amp; layer inspection</div>
+              </div>
+            </div>
+
+            <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;padding-top:16px;border-top:1px solid var(--border)">
+              <div class="tag-list" style="margin-top:0">
+                <span class="tag">170+ Free Elementor Widgets</span>
+                <span class="tag">110 Ready-Made Designs</span>
+                <span class="tag">Cloudflare R2 &amp; S3 Storage</span>
+                <span class="tag">EU DSA &amp; GDPR Ready</span>
+              </div>
+              <a href="product-picso.html" class="mono text-lime" style="font-weight:600">Explore All 170+ Features →</a>
+            </div>
+          </div>
+
+          <div class="card span-2 highlight-lime" style="display:flex;flex-direction:column;justify-content:space-between">
+            <div>
+              <span class="badge badge-lime">COMMERCIAL LICENSING</span>
+              <h3 style="margin-top:14px;font-size:24px">Own the Entire Picso Platform</h3>
+              <p class="text-muted" style="font-size:14px;margin-top:6px">One-time payment. Full PHP &amp; WordPress source code. Zero revenue share taken by 2TDV.</p>
+
+              <div style="margin-top:20px;display:grid;gap:12px">
+                <div style="padding:16px;border-radius:var(--r-sm);background:var(--bg-0);border:1px solid var(--border-strong);display:flex;justify-content:space-between;align-items:center">
+                  <div>
+                    <div style="font-weight:700">Regular License</div>
+                    <div style="font-size:12px;color:var(--text-3)">1 Production Domain · Full Package</div>
+                  </div>
+                  <div style="text-align:right">
+                    <div style="font-size:24px;font-weight:700;color:var(--lime)">$72</div>
+                    <div class="mono" style="font-size:10.5px;color:var(--text-3)">ONE-TIME</div>
+                  </div>
+                </div>
+
+                <div style="padding:16px;border-radius:var(--r-sm);background:var(--bg-0);border:1px solid rgba(212,255,58,0.45);display:flex;justify-content:space-between;align-items:center">
+                  <div>
+                    <div style="font-weight:700">Extended Agency License</div>
+                    <div style="font-size:12px;color:var(--text-3)">Unlimited Sites &amp; Client Builds</div>
+                  </div>
+                  <div style="text-align:right">
+                    <div style="font-size:24px;font-weight:700;color:var(--lime)">$599</div>
+                    <div class="mono" style="font-size:10.5px;color:var(--text-3)">ONE-TIME</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top:20px;display:grid;gap:10px">
+              <button type="button" class="btn btn-lime btn-block" onclick="window.addToCart('picso', 'regular')">Add Picso to License Cart ($72)</button>
+              <a href="checkout.html" class="btn btn-ghost btn-block btn-sm">Instant Express Checkout →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMMERCIAL SOFTWARE MARKETPLACE PREVIEW -->
+    <section class="section" id="marketplace-preview">
+      <div class="wrap">
+        <div class="section-head-row">
+          <div>
+            <span class="eyebrow">2TDV Commercial Software Catalog</span>
+            <h2 style="margin-top:14px">Ready-to-deploy <span class="serif text-lime">scripts, AI apps</span> &amp; SaaS platforms.</h2>
+            <p class="lead" style="margin-top:8px">
+              Every product is engineered in-house by 2TDV, shipped with unencrypted source code, documentation, demo importers, and verifiable commercial licensing.
+            </p>
+          </div>
+          <a href="marketplace.html" class="btn btn-lime">View All 8 Software Products →</a>
+        </div>
+
+        <div class="grid-3">
+          <!-- Card 1: Picso -->
+          <article class="product-card">
+            <div class="product-thumb">
+              <div style="display:flex;justify-content:space-between;align-items:center">
+                <span class="badge badge-lime">Flagship Script</span>
+                <span class="mono text-muted" style="font-size:11.5px">v1.0.0 · WP 6.6+ / PHP 8.2+</span>
+              </div>
+              <div style="margin:auto 0;padding:12px;border-radius:var(--r-xs);background:var(--bg-0);border:1px solid var(--border)">
+                <div class="mono text-lime" style="font-size:12px;font-weight:600">8 Asset Formats · 170+ Elementor Widgets</div>
+                <div style="font-size:12px;color:var(--text-3);margin-top:3px">Photos, 4K Video, Music, SFX, Vectors, Templates</div>
+              </div>
+              <div class="product-meta-row">
+                <span class="rating-stars">★★★★★ 4.98</span>
+                <span class="mono">1,420+ licensed</span>
+              </div>
+            </div>
+            <div class="product-body">
+              <h3><a href="product-picso.html">Picso — Stock Media Marketplace Script</a></h3>
+              <p class="text-muted" style="font-size:14px">Launch your own Shutterstock, Envato, or Adobe Stock platform on WordPress with PDF license certificates, C2PA labels, and Stripe Connect payouts.</p>
+              <div class="product-footer">
+                <div>
+                  <div class="price-tag">$72<small>/ Regular</small></div>
+                  <div class="mono" style="font-size:11px;color:var(--text-3)">Extended: $599</div>
+                </div>
+                <div style="display:flex;gap:8px">
+                  <a href="product-picso.html" class="btn btn-ghost btn-sm">Inspect</a>
+                  <button type="button" class="btn btn-lime btn-sm" onclick="window.addToCart('picso','regular')">Buy</button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: NeuralDesk AI -->
+          <article class="product-card">
+            <div class="product-thumb">
+              <div style="display:flex;justify-content:space-between;align-items:center">
+                <span class="badge badge-violet">AI SaaS Script</span>
+                <span class="mono text-muted" style="font-size:11.5px">v2.4.0 · Next.js 15 / pgvector</span>
+              </div>
+              <div style="margin:auto 0;padding:12px;border-radius:var(--r-xs);background:var(--bg-0);border:1px solid var(--border)">
+                <div class="mono text-violet" style="font-size:12px;font-weight:600">Hybrid RAG + Autonomous Ticket Agent</div>
+                <div style="font-size:12px;color:var(--text-3);margin-top:3px">Multi-tenant Stripe SaaS + 14KB Embed Widget</div>
+              </div>
+              <div class="product-meta-row">
+                <span class="rating-stars">★★★★★ 4.95</span>
+                <span class="mono">890+ licensed</span>
+              </div>
+            </div>
+            <div class="product-body">
+              <h3><a href="marketplace.html">NeuralDesk AI — Autonomous RAG Helpdesk</a></h3>
+              <p class="text-muted" style="font-size:14px">Self-hosted multi-tenant AI customer support SaaS that ingests documentation, resolves 78% of tickets autonomously, and bills subscribers monthly.</p>
+              <div class="product-footer">
+                <div>
+                  <div class="price-tag">$89<small>/ Regular</small></div>
+                  <div class="mono" style="font-size:11px;color:var(--text-3)">Extended: $649</div>
+                </div>
+                <div style="display:flex;gap:8px">
+                  <a href="marketplace.html" class="btn btn-ghost btn-sm">Inspect</a>
+                  <button type="button" class="btn btn-lime btn-sm" onclick="window.addToCart('neuraldesk','regular')">Buy</button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: VendorPulse -->
+          <article class="product-card">
+            <div class="product-thumb">
+              <div style="display:flex;justify-content:space-between;align-items:center">
+                <span class="badge badge-cyan">Laravel 11 Platform</span>
+                <span class="mono text-muted" style="font-size:11.5px">v3.1.2 · PHP 8.3 / Vue 3</span>
+              </div>
+              <div style="margin:auto 0;padding:12px;border-radius:var(--r-xs);background:var(--bg-0);border:1px solid var(--border)">
+                <div class="mono text-cyan" style="font-size:12px;font-weight:600">Software Licensing API + Digital Store</div>
+                <div style="font-size:12px;color:var(--text-3);margin-top:3px">Domain activation server, VAT &amp; release builder</div>
+              </div>
+              <div class="product-meta-row">
+                <span class="rating-stars">★★★★★ 4.92</span>
+                <span class="mono">640+ licensed</span>
+              </div>
+            </div>
+            <div class="product-body">
+              <h3><a href="marketplace.html">VendorPulse — Digital Marketplace &amp; License Server</a></h3>
+              <p class="text-muted" style="font-size:14px">Sell your own plugins, themes, and software scripts with cryptographic domain-bound license keys, automated updates, and EU VAT invoicing.</p>
+              <div class="product-footer">
+                <div>
+                  <div class="price-tag">$94<small>/ Regular</small></div>
+                  <div class="mono" style="font-size:11px;color:var(--text-3)">Extended: $699</div>
+                </div>
+                <div style="display:flex;gap:8px">
+                  <a href="marketplace.html" class="btn btn-ghost btn-sm">Inspect</a>
+                  <button type="button" class="btn btn-lime btn-sm" onclick="window.addToCart('vendorpulse','regular')">Buy</button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE LIVE AI SIMULATION STUDIO -->
+    <section class="section section-alt" id="live-ai-demo">
+      <div class="wrap">
+        <div class="section-head center">
+          <span class="eyebrow ai">Interactive AI Experience Demonstration</span>
+          <h2>Test how 2TDV engineers <span class="serif text-violet">production AI</span> systems.</h2>
+          <p class="lead">
+            Select a live architecture scenario below to inspect how our custom RAG pipelines, C2PA media classifiers, and autonomous multi-agent workflows execute in real time.
+          </p>
+        </div>
+
+        <div class="ai-console" id="ai-simulator-console">
+          <div class="ai-sidebar">
+            <div class="mono text-muted" style="font-size:11px;text-transform:uppercase;letter-spacing:0.08em">Select AI Architecture</div>
+            <button type="button" class="ai-preset-btn active" data-ai-scenario="rag">
+              <strong style="font-size:14px">01 · Enterprise RAG Copilot</strong>
+              <span style="font-size:12px;color:var(--text-3)">Contract &amp; policy retrieval with inline citations</span>
+            </button>
+            <button type="button" class="ai-preset-btn" data-ai-scenario="media">
+              <strong style="font-size:14px">02 · Picso C2PA Media Inspector</strong>
+              <span style="font-size:12px;color:var(--text-3)">Provenance check, AI labeling &amp; auto-tagging</span>
+            </button>
+            <button type="button" class="ai-preset-btn" data-ai-scenario="ocr">
+              <strong style="font-size:14px">03 · Financial OCR Reconciler</strong>
+              <span style="font-size:12px;color:var(--text-3)">Multi-currency invoice extraction &amp; VAT check</span>
+            </button>
+            <button type="button" class="ai-preset-btn" data-ai-scenario="agent">
+              <strong style="font-size:14px">04 · License &amp; Billing Agent</strong>
+              <span style="font-size:12px;color:var(--text-3)">Autonomous tier upgrade &amp; wildcard domain bind</span>
+            </button>
+            <div style="margin-top:auto;padding-top:14px;border-top:1px solid var(--border)">
+              <a href="ai-solutions.html" class="btn btn-violet btn-sm btn-block">Full AI Lab &amp; ROI Calculator →</a>
+            </div>
+          </div>
+
+          <div class="ai-main">
+            <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px">
+              <div>
+                <div class="mono text-lime" style="font-size:11.5px" id="ai-sim-model">claude-4-sonnet + pgvector-hybrid-v3</div>
+                <h3 id="ai-sim-title" style="margin-top:2px">Enterprise RAG Knowledge &amp; Policy Copilot</h3>
+              </div>
+              <span class="badge badge-emerald" id="ai-sim-latency">310ms retrieval · 48 tok/s</span>
+            </div>
+
+            <div>
+              <label class="mono text-muted" style="font-size:11px;display:block;margin-bottom:6px">INPUT INSTRUCTION / PAYLOAD</label>
+              <div style="display:flex;gap:10px;flex-wrap:wrap">
+                <input type="text" id="ai-sim-prompt" class="input" style="flex:1" readonly value="Analyze our Q3 EMEA enterprise licensing agreements and flag any non-standard indemnification clauses.">
+                <button type="button" id="ai-sim-run-btn" class="btn btn-lime">▶ Run Pipeline</button>
+              </div>
+            </div>
+
+            <div class="grid-2" style="gap:16px">
+              <div>
+                <div class="mono text-muted" style="font-size:11px;margin-bottom:6px">EXECUTION TELEMETRY &amp; TRACE</div>
+                <div class="terminal-box" id="ai-sim-output" style="min-height:175px"></div>
+              </div>
+              <div>
+                <div class="mono text-muted" style="font-size:11px;margin-bottom:6px">DETERMINISTIC JSON SCHEMA OUTPUT</div>
+                <pre class="terminal-box" id="ai-sim-json" style="min-height:175px;margin:0;color:#a5f3fc"></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLIENT TESTIMONIALS & ARCHITECTURE TRUST -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head center">
+          <span class="eyebrow">Trusted by Founders, CTOs &amp; Digital Operators</span>
+          <h2>Why teams choose 2TDV over <span class="serif text-lime">traditional</span> agencies.</h2>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <div class="rating-stars">★★★★★</div>
+            <p style="margin-top:14px;font-size:15px">
+              “We deployed <strong>Picso Extended License</strong> for a regional creative agency network in 48 hours, then hired 2TDV's custom engineering team to integrate a proprietary AI visual similarity engine. Unmatched execution speed.”
+            </p>
+            <div style="margin-top:20px;padding-top:14px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center">
+              <div>
+                <strong style="display:block;font-size:14px">Marcus Vance</strong>
+                <span style="font-size:12.5px;color:var(--text-3)">CTO, NordMedia Stock Collective</span>
+              </div>
+              <span class="tag">Picso + Custom AI</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="rating-stars">★★★★★</div>
+            <p style="margin-top:14px;font-size:15px">
+              “2TDV replaced three brittle SaaS subscriptions costing us $14,000/month with a custom multi-agent invoice &amp; ERP reconciliation platform that we own 100%. It paid for itself in 7 weeks.”
+            </p>
+            <div style="margin-top:20px;padding-top:14px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center">
+              <div>
+                <strong style="display:block;font-size:14px">Elena Rostova</strong>
+                <span style="font-size:12.5px;color:var(--text-3)">VP of Operations, FinLedger EU</span>
+              </div>
+              <span class="tag">Custom Automation</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="rating-stars">★★★★★</div>
+            <p style="margin-top:14px;font-size:15px">
+              “The code quality inside 2TDV's commercial scripts is cleaner than software we've paid agencies $80k to build. Having verifiable PDF license certificates and C2PA provenance out of the box is a game changer.”
+            </p>
+            <div style="margin-top:20px;padding-top:14px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center">
+              <div>
+                <strong style="display:block;font-size:14px">Devon K. Alverez</strong>
+                <span style="font-size:12.5px;color:var(--text-3)">Founder, Studio Lumina</span>
+              </div>
+              <span class="tag">Commercial Scripts</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION BANNER -->
+    <section class="section-sm">
+      <div class="wrap">
+        <div class="cta-banner">
+          <span class="eyebrow">Ready to Build or Deploy?</span>
+          <h2 style="max-width:780px">Start a custom AI engineering sprint—or launch a <span class="serif text-lime">2TDV commercial script</span> today.</h2>
+          <p class="lead">
+            Whether you need a dedicated senior engineering pod to build a custom platform from scratch, or an instant commercial license for Picso and our software suite, 2TDV is built for speed.
+          </p>
+          <div class="hero-actions" style="margin-top:8px">
+            <a href="contact.html" class="btn btn-lime btn-lg">Book Custom Project Discovery →</a>
+            <a href="marketplace.html" class="btn btn-ghost btn-lg">Browse Commercial Software</a>
+            <a href="verify-license.html" class="btn btn-outline btn-lg">Verify a License</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="brand-logo">
+            <span class="brand-mark">
+              <svg width="20" height="20" viewBox="0 0 36 36" fill="none">
+                <path d="M8 13C8 10.79 9.79 9 12 9H16C18.21 9 20 10.79 20 13C20 14.65 19 16.07 17.56 16.68L11.44 19.32C9.96 19.95 9 21.4 9 23V26H20" stroke="#d4ff3a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M23 9L29 17.5L23 26" stroke="#8b7bff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span>2TDV.com</span>
+          </a>
+          <p style="margin-top:14px;color:var(--text-2);font-size:13.5px;max-width:300px">
+            AI-Native Software Engineering Studio &amp; Commercial Digital Product Marketplace. Building bespoke web platforms and white-label commercial software.
+          </p>
+          <div class="tag-list" style="margin-top:16px">
+            <span class="tag">C2PA Provenance</span>
+            <span class="tag">SOC2-Ready Code</span>
+            <span class="tag">100% White-Label</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Custom Engineering</h4>
+          <ul>
+            <li><a href="services.html">Custom Web Applications</a></li>
+            <li><a href="services.html#saas">Multi-Tenant SaaS Builds</a></li>
+            <li><a href="ai-solutions.html">AI Agents &amp; RAG Systems</a></li>
+            <li><a href="ai-solutions.html#automation">Workflow Automation</a></li>
+            <li><a href="services.html#estimator">Project Cost Estimator</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Commercial Software</h4>
+          <ul>
+            <li><a href="product-picso.html">Picso — Stock Media Script ($72)</a></li>
+            <li><a href="https://picso.site" target="_blank" rel="noopener">Official Picso Website ↗</a></li>
+            <li><a href="marketplace.html">NeuralDesk AI Helpdesk</a></li>
+            <li><a href="marketplace.html">VendorPulse License Server</a></li>
+            <li><a href="marketplace.html">PromptForge AI SaaS</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Portal &amp; Licensing</h4>
+          <ul>
+            <li><a href="verify-license.html">Verify License Certificate</a></li>
+            <li><a href="pricing.html">Regular vs Extended License</a></li>
+            <li><a href="dashboard.html">Customer &amp; Client Dashboard</a></li>
+            <li><a href="checkout.html">Commercial Checkout</a></li>
+            <li><a href="login.html">Client Sign In / SSO</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="case-studies.html">Engineering Case Studies</a></li>
+            <li><a href="pricing.html">All-Access Studio Pass</a></li>
+            <li><a href="contact.html">Start a Custom Project</a></li>
+            <li><a href="RESEARCH.md">Research &amp; Architecture Doc</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 2TDV Technologies. All rights reserved. Flagship commercial product: <a href="https://picso.site" target="_blank" rel="noopener" class="text-lime">picso.site</a>.</div>
+        <div style="display:flex;gap:20px;flex-wrap:wrap">
+          <a href="verify-license.html">Licensing Terms</a>
+          <a href="verify-license.html">C2PA &amp; AI Disclosure</a>
+          <a href="dashboard.html">System Status: 99.98%</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

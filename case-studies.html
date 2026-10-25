@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Engineering Case Studies &amp; Product Architecture — 2TDV.com</title>
+  <meta name="description" content="Explore 2TDV's production case studies across commercial software products like Picso and bespoke enterprise AI & SaaS platforms.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="topbar-promo">
+        <span class="topbar-badge">Production Proof</span>
+        <span>Inspect how 2TDV engineers both commercial marketplace software (<a href="https://picso.site" target="_blank" rel="noopener" class="text-lime">picso.site</a>) and bespoke enterprise AI systems.</span>
+      </div>
+      <div class="topbar-links">
+        <a href="services.html">Custom Engineering</a>
+        <a href="marketplace.html">Commercial Scripts</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="nav-bar">
+      <a href="index.html" class="brand-logo">
+        <span class="brand-mark">
+          <svg width="22" height="22" viewBox="0 0 36 36" fill="none">
+            <path d="M8 13C8 10.79 9.79 9 12 9H16C18.21 9 20 10.79 20 13C20 14.65 19 16.07 17.56 16.68L11.44 19.32C9.96 19.95 9 21.4 9 23V26H20" stroke="#d4ff3a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M23 9L29 17.5L23 26" stroke="#8b7bff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span>2TDV</span>
+        <span class="brand-sub">AI · LABS</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Custom Engineering</a>
+        <a href="ai-solutions.html" class="nav-link">AI &amp; Automation</a>
+        <a href="marketplace.html" class="nav-link">Marketplace <span class="nav-count">8</span></a>
+        <a href="product-picso.html" class="nav-link">Picso Script</a>
+        <a href="case-studies.html" class="nav-link active">Case Studies</a>
+        <a href="pricing.html" class="nav-link">Pricing</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="icon-btn" data-open-cmd aria-label="Search"><span class="kbd-hint">⌘K</span></button>
+        <button type="button" class="icon-btn" data-theme-toggle aria-label="Theme"><span class="theme-label">Dark</span></button>
+        <button type="button" class="icon-btn" data-open-cart aria-label="Cart"><span class="cart-badge" data-cart-count>1</span></button>
+        <a href="contact.html" class="btn btn-lime btn-sm hide-sm">Start a Project</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-grid-bg"></div>
+      <div class="wrap">
+        <div class="hero-center">
+          <span class="eyebrow">Architectural Case Studies</span>
+          <h1>Systems engineered for <span class="serif text-lime">real-world</span> load &amp; revenue.</h1>
+          <p class="lead">
+            Every case study below represents production architecture built by 2TDV—spanning our proprietary commercial products and bespoke client builds.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="wrap" style="display:grid;gap:32px">
+
+        <!-- Case Study 1: Picso -->
+        <article class="card highlight-lime" style="padding:38px">
+          <div class="grid-2" style="align-items:center;gap:36px">
+            <div style="display:grid;gap:16px">
+              <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+                <span class="badge badge-lime">2TDV PROPRIETARY PRODUCT</span>
+                <span class="mono text-muted" style="font-size:12px">picso.site · WordPress 6.6+ · PHP 8.2+ · S3/R2</span>
+              </div>
+              <h2 style="font-size:32px">Picso: Engineering an 8-Format Stock Media Marketplace on WordPress</h2>
+              <p class="text-muted">
+                Traditional WordPress shop plugins collapse when tasked with multi-vendor stock media: they lack per-format players, 4K video frame scrubbing, C2PA AI provenance preservation, music PRO/cue sheets, and public PDF license verification. 2TDV engineered <strong>Picso Theme + Picso Core Plugin</strong> from the ground up to solve all of it natively.
+              </p>
+              <div class="tag-list">
+                <span class="tag">8 Asset Formats</span>
+                <span class="tag">170+ Elementor Widgets</span>
+                <span class="tag">C2PA v2.1</span>
+                <span class="tag">Stripe Connect Payouts</span>
+              </div>
+              <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:8px">
+                <a href="product-picso.html" class="btn btn-lime">Inspect Picso Product Page ($72) →</a>
+                <a href="https://picso.site/demo/" target="_blank" rel="noopener" class="btn btn-ghost">Explore Live Storefront Demo ↗</a>
+              </div>
+            </div>
+
+            <div style="display:grid;gap:14px">
+              <div class="grid-2" style="gap:14px">
+                <div class="stat-card">
+                  <div class="stat-value text-lime">8</div>
+                  <div class="stat-label">Native Asset Formats (Photo, Video, Music, SFX, Vector, Icon, Illustration, Template)</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-value text-cyan">170+</div>
+                  <div class="stat-label">Free Elementor Builder Widgets + 110 Ready Designs</div>
+                </div>
+              </div>
+              <div class="terminal-box" style="font-size:12px">
+                // Picso Media Pipeline Highlights<br>
+                ✓ Direct-to-bucket resumable uploads (Cloudflare R2 / Backblaze B2 / S3)<br>
+                ✓ Automated ffmpeg 4K/1080p/720p transcoding + 16-frame scrub strip<br>
+                ✓ Public license verification URL + numbered PDF certificates
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Case Study 2: FinLedger AI -->
+        <article class="card highlight-violet" style="padding:38px">
+          <div class="grid-2" style="align-items:center;gap:36px">
+            <div style="display:grid;gap:16px">
+              <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+                <span class="badge badge-violet">CUSTOM CLIENT AI BUILD</span>
+                <span class="mono text-muted" style="font-size:12px">FinTech · Python FastAPI · Next.js 15 · Vision LLM</span>
+              </div>
+              <h2 style="font-size:32px">FinLedger EU: Autonomous Multi-Agent Invoice &amp; VAT Reconciliation</h2>
+              <p class="text-muted">
+                FinLedger's 28-person finance operations team was manually auditing 14,000+ multi-currency European supplier invoices per month. 2TDV delivered an autonomous vision-LLM extraction pipeline with live VIES VAT validation and bi-directional NetSuite + Stripe treasury sync in 5 weeks.
+              </p>
+              <div class="tag-list">
+                <span class="tag">99.7% Extraction Accuracy</span>
+                <span class="tag">EU VIES VAT API</span>
+                <span class="tag">NetSuite ERP Sync</span>
+              </div>
+              <div style="margin-top:8px">
+                <a href="ai-solutions.html#playground" class="btn btn-violet">Test This Pipeline in AI Sandbox →</a>
+              </div>
+            </div>
+
+            <div class="grid-2" style="gap:14px">
+              <div class="stat-card">
+                <div class="stat-value text-violet">$420M+</div>
+                <div class="stat-label">Annual Transaction Volume Reconciled Autonomously</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value text-emerald">84%</div>
+                <div class="stat-label">Reduction in Manual Back-Office Processing Time</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value text-lime">420ms</div>
+                <div class="stat-label">Median Per-Page Document Extraction Latency</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value text-cyan">5 wks</div>
+                <div class="stat-label">From Architecture Kickoff to Production Go-Live</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Case Study 3: AetherHealth -->
+        <article class="card" style="padding:38px">
+          <div class="grid-2" style="align-items:center;gap:36px">
+            <div style="display:grid;gap:16px">
+              <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+                <span class="badge badge-cyan">CUSTOM MULTI-TENANT SAAS</span>
+                <span class="mono text-muted" style="font-size:12px">HealthTech · Next.js · PostgreSQL · pgvector · HIPAA</span>
+              </div>
+              <h2 style="font-size:32px">AetherHealth: Clinical Documentation Copilot &amp; Triage SaaS</h2>
+              <p class="text-muted">
+                Built for a network of 190 outpatient clinics, AetherHealth combines ambient medical transcription with a zero-data-retention RAG clinical guideline assistant and HL7/FHIR EHR integration.
+              </p>
+              <div class="tag-list">
+                <span class="tag">HIPAA &amp; SOC2 Type II</span>
+                <span class="tag">HL7 / FHIR API</span>
+                <span class="tag">Zero-Retention LLM</span>
+              </div>
+              <div style="margin-top:8px">
+                <a href="services.html#estimator" class="btn btn-ghost">Scope a Similar SaaS Platform →</a>
+              </div>
+            </div>
+
+            <div class="grid-2" style="gap:14px">
+              <div class="stat-card">
+                <div class="stat-value text-cyan">68%</div>
+                <div class="stat-label">Less Clinician Time Spent on Post-Visit Charting</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value text-lime">190+</div>
+                <div class="stat-label">Active Multi-Tenant Clinic Workspaces</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-bottom">
+        <div>© 2026 2TDV Technologies · Engineering Case Studies.</div>
+        <div style="display:flex;gap:18px">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="marketplace.html">Marketplace</a>
+          <a href="contact.html">Start a Project</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
